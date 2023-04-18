@@ -27,7 +27,7 @@ public class OperadoresLogicos {
 		String nome2 = "Joanna";
 		String nome3 = new String("Joana"); 
 		System.out.println(nome1 == nome3); //variavel == objeto - false
-		System.out.println(nome1.equals(nome3));
+		System.out.println(nome1.equals(nome3)); //está comparando os valores da variavel e o objeto.
 
 	}
 
