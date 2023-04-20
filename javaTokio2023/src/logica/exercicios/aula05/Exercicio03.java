@@ -11,18 +11,11 @@ public class Exercicio03 {
 		char masculino = 'M';
 		char feminino = 'F';
 		char outro = 'O';
-		char naoResponder = 'N';
+		char masquaico = 'M';
 		
-		char generoEscolhido = entrada.nextLine();
-		if(masculino == generoEscolhido) {
-			System.out.print("Olá Alexandre! Você escolheu a seguinte opção de gênero " + masculino);
-		} else if(feminino == generoEscolhido) {
-			System.out.print("Olá Alexandre! Você escolheu a seguinte opção de gênero: " + feminino);
-		} else if(outro == generoEscolhido) {
-			System.out.print("Olá Alexandre! Você escolheu a seguinte opção de gênero: " + outro);
-		} else if(naoResponder == generoEscolhido) {
-			System.out.print("Olá Alexandre! Você escolheu a seguinte opção de gênero: " + naoResponder);
-		}
+		System.out.println("Olá Guilherme, você recebeu o seguinte genero: " + masculino);
+		
+		entrada.close();
 	}
 
 }

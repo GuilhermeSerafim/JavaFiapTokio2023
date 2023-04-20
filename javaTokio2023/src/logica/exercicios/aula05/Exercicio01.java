@@ -6,7 +6,7 @@ public class Exercicio01 {
 		
 		String nome = "Guilherme";
 		String endereco = "Lua";
-		int cep = 05777777;
+		float cep = 05777.777f;
 		int numero = 957777777;
 		
 		System.out.println(nome);
