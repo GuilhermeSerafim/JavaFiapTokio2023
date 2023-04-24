@@ -6,10 +6,11 @@ public class SwitchCase {
 		
 		int escolhaDoUsuario = 1;
 		
-		switch (escolhaUsuario) {
+		switch (escolhaDoUsuario) {
 		case 0:
 			System.out.println("Sair do programa");
 			break;
+			
 		case 1:
 			System.out.println("Entrar no programa");
 			break;

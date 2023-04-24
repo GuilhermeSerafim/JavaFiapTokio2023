@@ -14,9 +14,9 @@ public class Exercicio02 {
 		String converteNum2 = Float.toString(num2);
 		String converteNum3 = Double.toString(num3);
 		
-		System.out.println(num1);
-		System.out.println(num2);
-		System.out.println(num3);
+		System.out.println(converteNum1);
+		System.out.println(converteNum2);
+		System.out.println(converteNum3);
 	}
 
 }
