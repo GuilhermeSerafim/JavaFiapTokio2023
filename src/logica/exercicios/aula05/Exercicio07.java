@@ -8,11 +8,16 @@ public class Exercicio07 {
 		
 		Scanner entrada = new Scanner(System.in);
 		
-		float valorProduto = 10.50f;
-		float valorPago = 20.00f;
+		System.out.println("Entre com o valor do produto: ");
+		float valProduto = entrada.nextFloat();
 		
-		System.out.println("Seu troco: " + (valorPago - valorProduto) + "0$");
-
+		System.out.println("Entre com o valor a ser pago: ");
+		float valPago = entrada.nextFloat();
+		
+		float troco = valPago - valProduto; 
+		System.out.println("Seu troco: " + troco);
+		
+		entrada.close();
 	}
 
 }

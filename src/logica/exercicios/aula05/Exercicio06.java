@@ -43,7 +43,8 @@ public class Exercicio06 {
 		System.out.println("\n");
 		
 		System.out.println("O valor a ser pago: " + (valorTotal2 + valorTotal1) + "0$");
-				
+		
+		entrada.close();
 		
 	}
 
