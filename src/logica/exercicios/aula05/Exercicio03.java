@@ -33,7 +33,7 @@ public class Exercicio03 {
 				System.out.println("Ola " + nome +  "! Voce escolheu a seguinte opcao de genero:" + outro);
 				escolhi = true;
 			} else {
-				System.out.println("Digite apenas as siglas que demos: M, F ou O");
+				System.out.println("Digite apenas as siglas que demos: 'M', Feminino = 'F' e Outro = 'O'");
 			}
 		}
 		

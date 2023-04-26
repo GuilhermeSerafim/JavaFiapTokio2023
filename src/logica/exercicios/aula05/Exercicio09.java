@@ -26,7 +26,7 @@ public class Exercicio09 {
 		    System.out.println("Dezena = " + dezena + "0");
 		    System.out.println("Centena = " + centena + "00");
 		}
-
+		entrada.close();
 	}
 
 }

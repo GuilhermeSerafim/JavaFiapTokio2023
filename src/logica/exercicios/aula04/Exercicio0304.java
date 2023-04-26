@@ -17,6 +17,8 @@ public class Exercicio0304 {
 		int idade = entrada.nextInt();
 
 		System.out.println("Olá, " + nome + ". Você tem " + idade + " anos.");
+		
+		entrada.close();
 
 	}
 

@@ -18,7 +18,8 @@ public class Atividade03 {
 			i++;
 			
 		}
-
+		
+		sc.close();
 	}
 
 }

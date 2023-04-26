@@ -11,7 +11,8 @@ public class Exercicio02 {
 		String nome = entrada.nextLine();
 		
 		System.out.println(nome);
-
+		
+		entrada.close();
 	}
 
 }

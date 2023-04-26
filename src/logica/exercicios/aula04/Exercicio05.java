@@ -10,7 +10,8 @@ public class Exercicio05 {
 		double salario = entrada.nextDouble();
 		
 		System.out.println("Seu salario: " + salario);
-		;
+		
+		entrada.close();
 
 	}
 

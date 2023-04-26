@@ -11,8 +11,9 @@ public class Atividade05 {
 		int qtdProdutos = tec.nextInt();
 		
 		for (int i = 0; i < qtdProdutos; i++) {
-			System.out.println("Produto " + (i + 1))
-			;
+			System.out.println("Produto " + (i + 1));
+			
+		tec.close();
 			
 		}
 			

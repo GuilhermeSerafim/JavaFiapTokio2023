@@ -9,6 +9,8 @@ public class Exercicio06 {
 		
 		System.out.println("Digite seu nome: ");
 		System.out.println("Seu nome é: " + entrada.nextLine());
+		
+		entrada.close();
 
 	}
 

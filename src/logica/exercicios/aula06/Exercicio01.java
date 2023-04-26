@@ -8,8 +8,16 @@ public class Exercicio01 {
 		
 		Scanner entrada = new Scanner(System.in);
 		
-		System.out.print("Digite o seu número: ");
-		int num = Integer.parseInt(entrada.nextLine());
+		System.out.print("Digite o seu numero: ");
+		int num = entrada.nextInt();
+
+		if((num % 2) == 0) {
+			System.out.println("Seu numero e par");
+		} else if((num % 2) == 1) {
+			System.out.println("Seu numero e impar");
+		}
+		
+		entrada.close();
 	}
 
 }

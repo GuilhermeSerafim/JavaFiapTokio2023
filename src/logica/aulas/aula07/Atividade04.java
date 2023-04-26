@@ -31,6 +31,8 @@ public class Atividade04 {
 		
 		System.out.println("Media: " + media);
 		
+		sc.close();
+		
 	}
 
 }
