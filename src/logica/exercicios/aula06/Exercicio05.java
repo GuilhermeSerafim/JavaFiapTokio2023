@@ -13,7 +13,7 @@ public class Exercicio05 {
 		System.out.println("Escreva o segundo numero:");
 		int num2 = entrada.nextInt();
 		System.out.println("Realize a operacao:");
-		char operacao = entrada.nextLine(); //não sei como prosseguir daqui
+		char operacao = entrada.nextline().charAt(0); //não sei como prosseguir daqui
 		System.out.println(operacao);
 		
 		entrada.close();
