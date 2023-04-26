@@ -22,7 +22,9 @@ public class Exercicio09 {
 			// Pegando a centena
 		    int centena = num % 10;
 		  //Exibindo resultado na tela
-		    System.out.printf("\nUnidade = %d\nDezena = %d\nCentena = %d\n", unidade, dezena, centena);
+		    System.out.println("Unidade = " + unidade);
+		    System.out.println("Dezena = " + dezena + "0");
+		    System.out.println("Centena = " + centena + "00");
 		}
 
 	}
