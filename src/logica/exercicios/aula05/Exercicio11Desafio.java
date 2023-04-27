@@ -12,8 +12,7 @@ public class Exercicio11Desafio {
 		int diasVividos = entrada.nextInt();
 		int mesesVividos = diasVividos / 30;
 		int anosVividos = diasVividos / 360;
-		System.out.printf("Total de dias vividos: %d. Total de meses vividos: %d. Total de anos vividos: %d"
-				, diasVividos, mesesVividos, anosVividos);
+		System.out.printf("Total de dias vividos: %d. Total de meses vividos: %d. Total de anos vividos: %d", diasVividos, mesesVividos, anosVividos);
 		
 		entrada.close();
 	}

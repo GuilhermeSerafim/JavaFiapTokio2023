@@ -4,12 +4,14 @@ public class Exercicio04 {
 
 	public static void main(String[] args) {
 		
-		int A = 10;
-		int B = 2;
-		int numMedia = 2;
-		int Media = (A + B) / numMedia;
+		int A = 4;
+		int B = 7;
+		if(A % B == 0 || B % A == 0) {
+			System.out.println("Sao multiplos");
+		} else {
+			System.out.println("Nao sao multiplos");
+		}
 		
-		System.out.println(Media);
 	}
 
 }
