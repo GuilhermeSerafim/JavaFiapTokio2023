@@ -13,8 +13,32 @@ public class Exercicio05 {
 		System.out.println("Escreva o segundo numero:");
 		int num2 = entrada.nextInt();
 		System.out.println("Realize a operacao:");
-		char operacao = entrada.nextline().charAt(0); //não sei como prosseguir daqui
+		char operacao = entrada.next().charAt(0); //nao coloque nextLine, apenas next
 		System.out.println(operacao);
+		
+		String status;
+		
+		switch(operacao) {
+			case '+':
+				status = "Resultado: " + (num1 + num2);
+				System.out.println(status);
+				break;
+			case '-':
+				status = "Resultado: " + (num1 - num2);
+				System.out.println(status);
+				break;
+			case '*':
+				status = "Resultado: " + (num1 * num2);
+				System.out.println(status);
+				break;
+			case '/':
+				status = "Resultado: " + (num1 * num2);
+				System.out.println(status);
+				break;
+		}
+
+			
+		
 		
 		entrada.close();
 	}

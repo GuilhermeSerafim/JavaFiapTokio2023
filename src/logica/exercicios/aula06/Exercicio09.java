@@ -16,18 +16,19 @@ public class Exercicio09 {
 		
 		float valorConta = 1;
 		boolean acheiCliente = false;
+		
 		while(acheiCliente == false) {
 			if(tipoDeCliente == 1 || tipoDeCliente == 2 || tipoDeCliente == 3) {
 				System.out.println("Digite o valor da sua conta:");
 				valorConta = entrada.nextFloat();
 				acheiCliente = true;
 			} else {
-				System.out.println("Nao identificamos qual e o seu tipo de cliente. Tente novamente");
-				acheiCliente = false;
+				System.out.println("Nao identificamos qual e o seu tipo de cliente. Digite novamente.");
+				tipoDeCliente = entrada.nextInt();
 			}
 		}
 		
-		
+		System.out.println("");
 		float residencia = valorConta * 0.60f;
 		float comercio = valorConta * 0.48f;
 		float industria = valorConta * 1.29f;

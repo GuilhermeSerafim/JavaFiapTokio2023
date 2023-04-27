@@ -9,20 +9,28 @@ public class Exercicio08 {
 		Scanner entrada = new Scanner(System.in);
 		
 		System.out.println("Quantos km voce correu com seu automovel?");
-		int kPercorrido = entrada.nextInt();
+		float distancia = entrada.nextFloat();
 		
 		System.out.println("Quanto de combustivel o seu automovel consumiu?");
-		int combusGasto = entrada.nextInt();
+		float volume = entrada.nextFloat();
 		
-		int autonomia = kPercorrido / combusGasto;
-		System.out.println(autonomia);
-		if(autonomia < 8) {
-			System.out.println("Autonomia legal");
-		}else {
-			System.out.println("Esse carro bebe em");
+		float consumo = distancia / volume;
+		System.out.println("Seu consumo e de: " + consumo + " km/l");
+		
+		
+		if(volume == 0) {
+			System.out.println("Seu carro e uma bicicleta");
+		} else {
+			System.out.println("Seu carro nao e uma bicicleta");
 		}
-		
+		System.out.println("");
+		if(consumo < 8) {
+			System.out.println("Autonomia boa");
+		} else {
+			System.out.println("Autonomia ruim");
+		}
 		entrada.close();
+		
 	}
 
 }
