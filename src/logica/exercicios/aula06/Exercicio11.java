@@ -20,26 +20,23 @@ public class Exercicio11 {
 		//CONVERSÃO
 		float pesoKg = pesoTonelada * 1000.0f; 
 		float precoPorKg;
-		//IMPOSTO PELO ESTADO
-		float estado1 = pesoKg * 0.35f;
-		float estado2 = pesoKg * 0.25f;
-		float estado3 = pesoKg * 0.15f;
-		float estado4 = pesoKg * 0.05f;
-		float estado5 = pesoKg * 0f;
-		float valorTotal;
-		//PARA SABER ESTADO
+		
+		//PARA SABER O IMPOSTO PELO ESTADO
 		if(estado == 1) {
-			estado = estado1;
+			estado = pesoKg * 0.35f;
 		} else if(estado == 2) {
-			estado = estado2;
+			estado = pesoKg * 0.25f;
 		} else if(estado == 3) {
-			estado = estado3;
+			estado = pesoKg * 0.15f;
 		} else if(estado == 4) {
-			estado = estado4;
+			estado = pesoKg * 0.05f;
 		} else if(estado == 5) {
-			estado = estado5;
+			estado = pesoKg;
 		}
-		//PARA SABER CODIGO DA CARGA
+		
+		//PARA SABER CODIGO DA CARGA E O PRECO DA CARGA DO CAMINHAO - TOTAL(carga + impostos)
+		float valorTotal;
+		
 		if(codigoCarga >= 10 && codigoCarga <= 20) {
 				precoPorKg = pesoKg * 100.00f;
 				valorTotal = precoPorKg + estado; //algo errado aqui
@@ -53,7 +50,9 @@ public class Exercicio11 {
 			valorTotal = precoPorKg + estado;
 			System.out.println("O valor total transportado pelo caminhao: R$" + valorTotal);
 		}
+		
 		entrada.close();
+		
 	}
 
 }
