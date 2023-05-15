@@ -1,5 +1,5 @@
 # JavaFiapTokio2023
-Atividades de lógica de programação em JAVA realizadas no projeto Sementes Brasil Tech.
+Este repositório é focado em atividades de lógica de programação em JAVA realizadas no projeto Sementes Brasil Tech.
 
 Este projeto oferecido pela Tokio Marine em parceria com a FIAP, fornecerá conhecimentos em diversas áreas relacionadas à tecnologia da informação.
 Durante o curso, você terá a oportunidade de aprender sobre os fundamentos de computadores, incluindo sistemas operacionais e infraestrutura, como Windows, Linux e iOS.
